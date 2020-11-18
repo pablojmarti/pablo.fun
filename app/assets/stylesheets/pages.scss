@@ -1,3 +1,95 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import "bootstrap";
+
+
+.background-tint {
+}
+
+body {
+  background-image: url('topography.png');
+  background-attachment: fixed;
+  background-color: #faf7f1;
+  background-blend-mode: multiply;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Modak', sans-serif;
+  color: #830609;
+  transition: color 0.5s ease;
+}
+
+h1, h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold !important;
+  color: #830609;
+}
+
+a.nav-link {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #150d0d !important;
+}
+
+i {
+  font-size: 44px !important;
+  color: #830609;
+  transition: color 0.5s ease !important;
+}
+
+.navbar {
+  background-color: #FFE6E6 !important;
+  margin-bottom: 15px;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.media {
+  background-color: #FFE6E6 !important;
+}
+
+.pink-background {
+  background-color: #FFE6E6 !important;
+}
+
+img {
+  max-width: 300px;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #D3D3D3 !important;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 250px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.9rem;
+    margin: ($spacer * .25) !important;
+  }
+
+  i {
+    margin-bottom: $spacer !important;
+  }
+}
