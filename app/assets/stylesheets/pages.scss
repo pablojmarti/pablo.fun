@@ -4,9 +4,6 @@
 @import "bootstrap";
 
 
-.background-tint {
-}
-
 body {
   background-image: url('topography.png');
   background-attachment: fixed;
@@ -21,13 +18,13 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Trispace', sans-serif;
   font-weight: bold !important;
   color: #830609;
 }
 
 a.nav-link {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Trispace', sans-serif;
   font-size: 1.3rem;
 }
 
